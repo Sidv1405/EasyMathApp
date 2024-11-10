@@ -4,7 +4,10 @@ enum class CalculatorAction {
     NUMBER,
     CLEAR,
     DELETE,
-    OPERATION,
+    OPERATION_ADD,
+    OPERATION_SUBTRACT,
+    OPERATION_MULTIPLY,
+    OPERATION_DIVIDE,
     CALCULATE,
     DECIMAL
 }
